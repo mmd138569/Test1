@@ -118,7 +118,7 @@ namespace Test1.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Test1;component/views/editsection.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Test1;V1.0.0.0;component/views/editsection.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\EditSection.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
