@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\editsection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\editsection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\addsection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\addsection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\searchsection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\searchsection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\obj\\Debug\\net6.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Test1\\obj\\Debug\\net6.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\viewmodels\\addsectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\viewmodels\\addsectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\viewmodels\\editsectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\viewmodels\\editsectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\addsection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\addsection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\core\\nameofregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\core\\nameofregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\viewmodels\\searchsectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\viewmodels\\searchsectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\resources\\styleresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\resources\\styleresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\views\\resources\\styleresources.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\views\\resources\\styleresources.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|c:\\users\\afraco\\source\\repos\\test1\\test1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C8C899E8-FBAD-46D5-BC29-73EDE5A7EC21}|Test1\\Test1.csproj|solutionrelative:test1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 258,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:243216601:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "Test1\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "RelativeToolTip": "Test1\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAewDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T08:17:56.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditSectionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\EditSectionViewModel.cs",
+              "RelativeDocumentMoniker": "Test1\\ViewModels\\EditSectionViewModel.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\EditSectionViewModel.cs",
+              "RelativeToolTip": "Test1\\ViewModels\\EditSectionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:29:13.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditSection.xaml",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\EditSection.xaml",
+              "RelativeDocumentMoniker": "Test1\\Views\\EditSection.xaml",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\EditSection.xaml",
+              "RelativeToolTip": "Test1\\Views\\EditSection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-18T15:29:12.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SearchSectionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\SearchSectionViewModel.cs",
+              "RelativeDocumentMoniker": "Test1\\ViewModels\\SearchSectionViewModel.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\SearchSectionViewModel.cs",
+              "RelativeToolTip": "Test1\\ViewModels\\SearchSectionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T14:25:59.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchSection.xaml",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\SearchSection.xaml",
+              "RelativeDocumentMoniker": "Test1\\Views\\SearchSection.xaml",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\SearchSection.xaml",
+              "RelativeToolTip": "Test1\\Views\\SearchSection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-18T14:25:58.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StyleResources.xaml",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\Resources\\StyleResources.xaml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Resources\\StyleResources.xaml",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\Resources\\StyleResources.xaml",
+              "RelativeToolTip": "Test1\\Views\\Resources\\StyleResources.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-17T18:44:22.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StyleResources.xaml",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\Resources\\StyleResources.xaml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Resources\\StyleResources.xaml",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\Resources\\StyleResources.xaml",
+              "RelativeToolTip": "Test1\\Views\\Resources\\StyleResources.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-17T18:35:22.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Test1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\App.xaml.cs",
+              "RelativeToolTip": "Test1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T17:57:52.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\App.xaml",
+              "RelativeDocumentMoniker": "Test1\\App.xaml",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\App.xaml",
+              "RelativeToolTip": "Test1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-17T17:34:32.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddSection.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\AddSection.xaml.cs",
+              "RelativeDocumentMoniker": "Test1\\Views\\AddSection.xaml.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\AddSection.xaml.cs",
+              "RelativeToolTip": "Test1\\Views\\AddSection.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:25:25.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddSectionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\AddSectionViewModel.cs",
+              "RelativeDocumentMoniker": "Test1\\ViewModels\\AddSectionViewModel.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\AddSectionViewModel.cs",
+              "RelativeToolTip": "Test1\\ViewModels\\AddSectionViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:20:29.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddSection.xaml",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\AddSection.xaml",
+              "RelativeDocumentMoniker": "Test1\\Views\\AddSection.xaml",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\AddSection.xaml",
+              "RelativeToolTip": "Test1\\Views\\AddSection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-17T14:20:28.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NameOfRegion.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Core\\NameOfRegion.cs",
+              "RelativeDocumentMoniker": "Test1\\Core\\NameOfRegion.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Core\\NameOfRegion.cs",
+              "RelativeToolTip": "Test1\\Core\\NameOfRegion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:04:06.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Test1\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Test1\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAewA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T13:52:04.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Test1\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\Views\\MainWindow.xaml*",
+              "RelativeToolTip": "Test1\\Views\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-17T13:36:54.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Test1\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\AFRACO\\Source\\Repos\\Test1\\Test1\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Test1\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T13:36:36.261Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 106,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="Test1.Views.AddSection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"    
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:core="clr-namespace:Test1.Core"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <Grid FlowDirection="RightToLeft" HorizontalAlignment="Right">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <telerik:RadButton Width="110" Height="50"   Content="ثبت نهایی"/>
+            <telerik:RadButton Grid.Column="1" Width="110" Height="50" Margin="4,0,0,0" Content="انصراف"/>
+        </Grid>
+        <Grid Grid.Row="1" FlowDirection="RightToLeft">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="مشتری" VerticalAlignment="Center"/>
+                <telerik:RadWatermarkTextBox Width="150" Height="50" Grid.Column="1">
+
+                </telerik:RadWatermarkTextBox>
+            </Grid>
+            <Grid Grid.Column="1" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="تاریخ" VerticalAlignment="Center" />
+                <telerik:RadDateTimePicker Grid.Column="1" Width="150" Height="50" >
+
+                </telerik:RadDateTimePicker>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <telerik:RadButton Grid.Column="0" Margin="25,0" Width="110" Height="50" Content="ایجاد" Command="{Binding Add}"/>
+            <telerik:RadButton Grid.Column="1" Width="110" Margin="25,0" Height="50" Content="ویرایش" Command="{Binding Edit}"/>
+            <telerik:RadButton Grid.Column="2" Width="110" Margin="25,0,50,0" Height="50" Content="حدف"/>
+        </Grid>
+        <Grid Grid.Row="3" FlowDirection="RightToLeft">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <telerik:RadGridView Grid.Column="0"  HorizontalContentAlignment="Left"  Grid.Row="0"  x:Name="RadGridView1" Width="470" HorizontalAlignment="Left" Margin="12,0,0,0"
+                                  VerticalAlignment="Top"
+                                  SelectedItem="{Binding RemovePairs, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                  ItemsSource="{Binding MLCLeavesBorderLeft.Items,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                  AutoGenerateColumns="False"
+                                  ShowGroupPanel="False"
+                                  RowIndicatorVisibility="Collapsed"
+                                  CanUserResizeColumns="False">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn  
+                        IsReadOnly="True"
+                        Width="60"	 	 	 	 	 
+                        Header="نام کالا"                  
+                        DataMemberBinding="{Binding LeafIndex,Mode=TwoWay}"
+                        IsGroupable="False" 	 	 	 	 	
+                        IsFilterable="False" />
+                    <telerik:GridViewDataColumn              
+                        Width="100" 
+                        Header="کد کالا"	 
+                        DataMemberBinding="{Binding LeafPairSingleData,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"	 	 	 	 	
+                        IsSortable="True" />
+                    <telerik:GridViewDataColumn 
+                        IsReadOnly="True"
+                        Width="100"
+                        Header="فی واحد"
+                        DataMemberBinding="{Binding LeafCenterPosition,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        IsGroupable="False" 
+                        IsFilterable="False" />
+                    <telerik:GridViewDataColumn 
+                        IsReadOnly="True"
+                        Width="100"
+                        Header="تعداد"
+                        DataMemberBinding="{Binding LeafCenterPosition,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        IsGroupable="False" 
+                        IsFilterable="False" />
+                    <telerik:GridViewDataColumn 
+                        IsReadOnly="True"
+                        Width="100"
+                        Header="جمع کل"
+                        DataMemberBinding="{Binding LeafCenterPosition,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        IsGroupable="False" 
+                        IsFilterable="False" />
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+        </Grid>
+          </Grid> 
+        <Grid Grid.Column="0">
+            <ContentControl prism:RegionManager.RegionName="{x:Static core:NameOfRegion.EditRegion}" Visibility="{Binding SearchSectionVisibility}" />
+
+        </Grid>
+    </Grid>
+</UserControl>

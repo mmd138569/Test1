@@ -1,0 +1,107 @@
+﻿<UserControl x:Class="Test1.Views.SearchSection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Grid FlowDirection="RightToLeft">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+            <telerik:Label Width="110" Height="50"  Content="جست و جو"/>
+        </Grid>
+        <Grid Grid.Row="1" FlowDirection="RightToLeft">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="از تاریخ" VerticalAlignment="Center"/>
+                <telerik:RadDateTimePicker Width="150" Height="50" Grid.Column="1">
+
+                </telerik:RadDateTimePicker>
+            </Grid>
+
+            <Grid Grid.Column="0" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="نام مشتری" VerticalAlignment="Center"/>
+                <telerik:RadWatermarkTextBox Width="150" Height="50" Grid.Column="1">
+
+                </telerik:RadWatermarkTextBox>
+            </Grid>
+            <Grid Grid.Column="2" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="تا تاریخ" VerticalAlignment="Center" />
+                <telerik:RadDateTimePicker Grid.Column="1" Width="150" Height="50" >
+
+                </telerik:RadDateTimePicker>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid Grid.Row="2" FlowDirection="RightToLeft">
+            <telerik:RadGridView  HorizontalContentAlignment="Right"  Grid.Row="0"  x:Name="RadGridView1" Width="420" HorizontalAlignment="Left" Margin="12,0,0,0"
+                                 VerticalAlignment="Top"
+                                 SelectedItem="{Binding RemovePairs, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                 ItemsSource="{Binding MLCLeavesBorderLeft.Items,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                 AutoGenerateColumns="False"
+                                 ShowGroupPanel="False"
+                                 RowIndicatorVisibility="Collapsed"
+                                 CanUserResizeColumns="False">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn  
+                        IsReadOnly="True"
+                        Width="100"	 	 	 	 	 
+                        Header="شماره فاگتور"                  
+                        DataMemberBinding="{Binding LeafIndex,Mode=TwoWay}"
+                        IsGroupable="False" 	 	 	 	 	
+                        IsFilterable="False" />
+                    <telerik:GridViewDataColumn              
+                        Width="90" 
+                        Header="مشتری"	 
+                        DataMemberBinding="{Binding LeafPairSingleData,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"	 	 	 	 	
+                        IsSortable="True" />
+                    <telerik:GridViewDataColumn 
+                        IsReadOnly="True"
+                        Width="100"
+                        Header="تاریخ"
+                        DataMemberBinding="{Binding LeafCenterPosition,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        IsGroupable="False" 
+                        IsFilterable="False" />
+                    <telerik:GridViewDataColumn 
+                        IsReadOnly="True"
+                        Width="100"
+                        Header="جمع کل"
+                        DataMemberBinding="{Binding LeafCenterPosition,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        IsGroupable="False" 
+                        IsFilterable="False" />
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+        </Grid>
+    </Grid>
+</UserControl>

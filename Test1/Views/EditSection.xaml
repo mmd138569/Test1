@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="Test1.Views.EditSection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" FlowDirection="RightToLeft">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="کالا" HorizontalAlignment="Center"/>
+                <telerik:RadWatermarkTextBox Width="150" Height="50" Grid.Column="1">
+
+                </telerik:RadWatermarkTextBox>
+            </Grid>
+            <Grid Grid.Row="1" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="قیمت واحد" HorizontalAlignment="Center" />
+                <telerik:RadWatermarkTextBox Grid.Column="1" Width="150" Height="50" >
+
+                </telerik:RadWatermarkTextBox>
+            </Grid>
+            <Grid Grid.Row="2"  VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="تعداد" HorizontalAlignment="Center"/>
+                <telerik:RadWatermarkTextBox Width="150" Height="50" Grid.Column="1">
+
+                </telerik:RadWatermarkTextBox>
+            </Grid>
+            <Grid Grid.Row="3"  VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="جمع کل" HorizontalAlignment="Center"/>
+                <telerik:RadWatermarkTextBox Width="150" Height="50" Grid.Column="1">
+
+                </telerik:RadWatermarkTextBox>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <telerik:RadButton Grid.Column="0" Margin="25,0" Width="110" Height="50" Content="ذخیره" Command="{Binding Add}"/>
+            <telerik:RadButton Grid.Column="1" Width="110" Margin="25,0" Height="50" Content="انصراف" Command="{Binding Edit}"/>
+        </Grid>
+    </Grid>
+</UserControl>
