@@ -37,7 +37,7 @@ namespace Test1.ViewModels
         {
             _regionManager = regionManager;
             Add = new DelegateCommand(OnAddCommand);
-            Edit = new DelegateCommand(OnEditCommand);
+            //Edit = new DelegateCommand(OnEditCommand);
             Search =new DelegateCommand(OnSearchCommand);
         }
 

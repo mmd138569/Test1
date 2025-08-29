@@ -22,7 +22,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <telerik:RadButton Grid.Column="0" Width="110" Height="50" Content="ایجاد" Command="{Binding Add}"/>
-            <telerik:RadButton Grid.Column="1" Width="110" Height="50" Content="ویرایش" Command="{Binding Edit}"/>
+            <telerik:RadButton Grid.Column="1" Width="110" Height="50" Content="ویرایش" />
             <telerik:RadButton Grid.Column="2" Width="110" Height="50" Content="حذف"/>
             <telerik:RadButton Grid.Column="3" Width="110" Height="50" Content="جست و جو" Command="{Binding Search}"/>
             <telerik:RadButton Grid.Column="4" Width="110" Height="50" Content="خروج" >

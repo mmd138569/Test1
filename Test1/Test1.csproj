@@ -18,6 +18,7 @@
     <PackageReference Include="Telerik.UI.for.Wpf.60.Xaml.Trial" Version="2024.3.806" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Models\Services\" />
     <Folder Include="Views\Resources\" />
   </ItemGroup>
 </Project>

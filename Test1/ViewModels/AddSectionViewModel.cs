@@ -21,8 +21,9 @@ namespace Test1.ViewModels
         }
         private void OnEditCommand()
         {
-            // Navigate to EditSection view in the EditRegion
-            _regionManager.RequestNavigate(NameOfRegion.EditRegion, nameof(EditSection));
+            _regionManager.RegisterViewWithRegion("EditRegion", typeof(EditSection));
+            //  _regionManager.RequestNavigate(NameOfRegion.EditRegion, nameof(EditSection));
         }
+
     }
 }
